@@ -1,0 +1,55 @@
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid blue; */
+    padding-top: 5%;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: Outfit, sans-serif;
+    text-align: left;
+    /* border: 1px solid green; */
+    width: 100%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.description {
+    font-size: 24px;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 400;
+    text-align: left;
+    width: 60%;   
+    /* border: 1px solid red; */
+    margin-right: 5%;
+}
+
+.logo {
+    margin-left: 10%;
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+* {
+    background-color: #EAEAEA;
+}
