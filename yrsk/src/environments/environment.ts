@@ -8,5 +8,5 @@ export const environment = {
         storageBucket: "yrsk-d4b11.appspot.com",
         messagingSenderId: "680181984732",
         appId: "1:680181984732:web:6c0081093bf16c08847319"
-    }
+    },
 };

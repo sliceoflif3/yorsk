@@ -9,7 +9,7 @@ import { OnInit } from '@angular/core';
 })
 export class AlbumComponent {
   picUrl: string;
-  @Input() album: any
+  @Input() album: any;
   constructor(private storage: AngularFireStorage) { }
   
   getImageUrl() {

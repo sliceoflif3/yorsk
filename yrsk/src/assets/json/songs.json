@@ -1,0 +1,130 @@
+[
+	{
+		"id": 1,
+		"name": "ELMA",
+		"year": 2019,
+		"jpname": "エルマ",
+		"songs": [
+			{
+				"id": 1,
+				"name": "車窓 | Shasou [instrumental]"
+			},
+			{
+				"id": 2,
+				"name": "憂一乗 | Yuu Ichijou"
+			},
+			{
+				"id": 3,
+				"name": "夕凪、某、花惑い | Yuunagi, Nanigashi, Hanamadoi"
+			},
+			{
+				"id": 4,
+				"name": "雨とカプチーノ | Ame to Cappuccino"
+			},
+			{
+				"id": 5,
+				"name": "湖の街 | Mizuumi no Machi [instrumental]"
+			},
+			{
+				"id": 6,
+				"name": "神様のダンス | Kami-sama no Dansu"
+			},
+			{
+				"id": 7,
+				"name": "雨晴るる | Ame Haruru"
+			},
+			{
+				"id": 8,
+				"name": "歩く | Aruku"
+			},
+			{
+				"id": 9,
+				"name": "心に穴が空いた | Kokoro ni Ana ga Aita"
+			},
+			{
+				"id": 10,
+				"name": "森の教会 | Mori no Kyoukai [instrumental]"
+			},
+			{
+				"id": 11,
+				"name": "声 | Koe"
+			},
+			{
+				"id": 12,
+				"name": "エイミー | Amy"
+			},
+			{
+				"id": 13,
+				"name": "海底、月明かり | Kaitei, Tsukiakari [instrumental]"
+			},
+			{
+				"id": 14,
+				"name": "ノーチラス | Nautilus"
+			}
+		]
+	},
+	{
+	"id": 2,
+	"name": "ELMA2",
+	"year": 20192,
+	"jpname": "エルマ2",
+	"songs": [
+		{
+			"id": 1,
+			"name": "車窓 | Shasouadfasdfasdf [instrumental]"
+		},
+		{
+			"id": 2,
+			"name": "憂asdfasfdasdf一乗 | Yuu Ichijou"
+		},
+		{
+			"id": 3,
+			"name": "夕凪、某、花惑い |adsfasdf Yuunagi, Nanigashi, Hanamadoi"
+		},
+		{
+			"id": 4,
+			"name": "雨とカプチadfadsfーノ | Ame to Cappuccino"
+		},
+		{
+			"id": 5,
+			"name": "湖の街 | Mizadsfasdfuumi no Machi [instrumental]"
+		},
+		{
+			"id": 6,
+			"name": "神様のダンスadsfasdf | Kami-sama no Dansu"
+		},
+		{
+			"id": 7,
+			"name": "雨晴るる |afdasdf Ame Haruru"
+		},
+		{
+			"id": 8,
+			"name": "歩く |adsfasdf Aruku"
+		},
+		{
+			"id": 9,
+			"name": "心に穴が空afdいた | Kokoro ni Ana ga Aita"
+		},
+		{
+			"id": 10,
+			"name": "森の教会 | Mori no Kyadsfasdfadoukai [instrumental]"
+		},
+		{
+			"id": 11,
+			"name": "声 | adfasfdadsfKoe"
+		},
+		{
+			"id": 12,
+			"name": "エイミー | Aadsfasdfdasfmy"
+		},
+		{
+			"id": 13,
+			"name": "海底、月明かり | Kasdfasdfaaitei, Tsukiakari [instrumental]"
+		},
+		{
+			"id": 14,
+			"name": "ノーチラス | Nauadfasdftilus"
+		}
+	]
+}
+]

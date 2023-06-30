@@ -1,2 +1,16 @@
-<p>album-detail works!</p>
-<h1>the current album is {{ albumId }}</h1>
+
+
+<div class="center">
+    <div class="grid-container">
+        <div class="img">
+            <img src="{{ realUrl }}" alt="">
+        </div>
+        <div class="name">
+            <p class="albumname">{{ albumName }}</p>
+            <p>{{ jpName }}</p>
+        </div>
+    </div>
+    <div class="songs">
+        <p class="songname" *ngFor="let song of songs, let i = index">{{ i + 1 }}. {{ song.name }}</p>
+    </div>
+</div>

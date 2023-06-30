@@ -1,0 +1,58 @@
+* {box-sizing: border-box;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 2% auto;
+    max-width: 800px;
+    gap: 15px;
+}
+
+.img {
+    /* width: auto; */
+    max-height: 100%;
+}
+
+img {
+    height: auto;
+    max-width: 150px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2rem;
+    justify-content: space-evenly;
+}
+
+.songs {
+    /* margin-top: 5%; */
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.25rem;
+    /* margin-left: 25%; */
+    /* margin-right: auto; */
+}
+
+.songname {
+    margin-bottom: 1rem;
+    /* margin-bottom: ; */
+}
+
+.albumname {
+    font-weight: bold;
+    font-family: Outfit, serif;
+}
+
+p {
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
