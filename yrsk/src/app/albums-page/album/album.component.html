@@ -1,20 +1,23 @@
 <div class="grid-container">
     <div class="cover">
-        <img src="{{ album.coverPic }}" alt="">        
+        <img class="coverImg" src="{{ album.coverPic }}" alt="">        
     </div>
     <div class="content">
         <p class="name">{{ album.name }} {{ album.year}}</p>
-        <p class="inline">Japanese Title:</p> 
-            <p class="jpname">{{ album.jpname }}</p>
-        <p class="inline">English Title Translation:</p> 
-            <p class="trans">{{ album.translation }}</p>
-        <p class="class">{{ album.class }}</p>
-        <p class="inline">Youtube Trailer: </p>
-            <a href="{{ album.trailerUrl }}" target="_blank"><p
-                class="youtube">{{ album.youtubeName }}</p></a>
-        <p class="inline">Spotify: </p>
-            <a href="{{ album.spotifyUrl }}" target="_blank">
-                <p class="spotify">{{ album.spotifyName }}</p>
-            </a>
+        <div >
+            Japanese Title: <span class="jpname">{{ album.jpname }}</span>
+        </div>    
+        <div>
+            English Title Translation: <span class="trans">{{ album.translation }}</span>
+        </div>   
+        <div class="class">
+            Album Classification: {{ album.class }}
+        </div>
+        <div class="youtube">
+            Youtube Trailer: <a href="{{ album.trailerUrl }}" target="_blank">{{ album.youtubeName }}</a>
+        </div>
+        <div class="spotify">
+            Spotify: <a href="{{ album.spotifyUrl }}" target="_blank">{{ album.spotifyName }} </a>
+        </div>
     </div>
 </div>
