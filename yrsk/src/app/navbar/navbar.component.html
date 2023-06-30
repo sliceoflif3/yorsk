@@ -1,23 +1,25 @@
 <header>
-    <img src="../../assets/logo/yrsk.svg" height="80px" class="logo">
+    <div class="logo">
+        <a routerLink="/about"><img src="../../assets/logo/yrsk.svg" height="80px" alt="logo"></a>
+    </div>
     
     <nav class="navbar">
     
         <ul class="nav-links">
             <li>
-                <a href="#">ABOUT</a>
+                <a routerLink="/about" routerLinkActive="active">ABOUT</a>
             </li>
             <li>
-                <a href="#">ALBUMS</a>
+                <a routerLink="/albums" routerLinkActive="active">ALBUMS</a>
             </li>
             <li>
-                <a href="#">LORE</a>
+                <a routerLink="/lore" routerLinkActive="active">LORE</a>
             </li>
             <li>
-                <a href="#">APPENDIX</a>
+                <a routerLink="/appendix" routerLinkActive="active">APPENDIX</a>
             </li>
             <li>
-                <a href="#">CREDITS</a>
+                <a routerLink="/credits" routerLinkActive="active">CREDITS</a>
             </li>
         </ul>
     </nav>

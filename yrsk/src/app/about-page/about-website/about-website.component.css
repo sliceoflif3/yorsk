@@ -14,16 +14,17 @@
 
 .about {
     font-family: Outfit, sans-serif;
-    font-size: 64px;
+    font-size: 2.5rem;
     width: 100%;
     /* border: 1px solid green; */
     text-align: left;
     padding-left: 10%;
+    margin-left: 10%;
 }
 
 .content p{
     font-family: 'Noto Serif JP', serif;
-    font-size: 24px;
+    font-size: 1.25rem;
     text-align: left;
 }
 

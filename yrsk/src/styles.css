@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
-html {
+html, body {
     background-color: #EAEAEA;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }

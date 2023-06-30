@@ -6,11 +6,12 @@
     padding: 0;
 }
 
-li, a, button {
+li, a {
     font-family: 'Outfit', sans-serif;
-    font-size: 32px;
+    font-size: 1.2rem;
     color: #000000;
     text-decoration: none;
+    font-weight: regular;
 }
 
 header {
@@ -19,12 +20,22 @@ header {
     align-items: center;
     padding: 0 2.5%;
     background-color: #acd0d1;
-    position: sticky;
+    position: fixed;
+    width: 100%; /*take up whole page*/
+    height: 55px;
 }
 
 .logo {
     cursor: pointer;
     margin-right: auto;
+    height: 100%;
+}
+
+.logo img {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: auto;
 }
 
 .nav-links {
@@ -41,5 +52,9 @@ header {
 }
 
 .nav-links li a:hover {
+    color: #ffffff;
+}
+
+.active {
     color: #ffffff;
 }

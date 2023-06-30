@@ -1,0 +1,8 @@
+<div class="flexbox-container">
+    <div class="title">
+        <h1>Album</h1>
+    </div>
+    <div *ngFor="let album of albums">
+        <app-album [album]="album"></app-album>
+    </div>  
+</div>

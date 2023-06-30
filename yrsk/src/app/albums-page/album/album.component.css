@@ -1,0 +1,21 @@
+p {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1rem;
+}
+
+.inline {
+    display:inline;
+}
+
+a {
+    text-decoration: underline;
+    
+}
+
+a:visited {
+    color: #000;
+}
+
+.jpname, .trans {
+    font-weight: bold;
+}

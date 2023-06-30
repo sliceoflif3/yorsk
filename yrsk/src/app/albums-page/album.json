@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "NATSUKUSA GA JAMA WO SURU",
+        "year": 2017,
+        "jpname": "夏草が邪魔をする",
+        "translation": "The Summer Grass Is Getting In My Way | The Summer Grass Gets In The Way",
+        "classification": "EP / Mini-Album",
+        "trailerUrl": "https://youtu.be/6EgbGnSJnS4",
+        "youtubeName": "ヨルシカ - 夏草が邪魔をする (Album Trailer)",
+        "spotifyUrl": "https://open.spotify.com/album/3o5yzVy1ZXMfyATfj9OjbV",
+        "spotifyName": "夏草が邪魔をする - Album by Yorushika | Spotify",
+        "coverPic": "../../../assets/album/1.png"
+    },
+    {
+        "id": 1,
+        "name": "NATSUKUSA GA JAMA WO SURU",
+        "year": 2017,
+        "jpname": "夏草が邪魔をする",
+        "translation": "The Summer Grass Is Getting In My Way | The Summer Grass Gets In The Way",
+        "classification": "EP / Mini-Album",
+        "trailerUrl": "https://youtu.be/6EgbGnSJnS4",
+        "youtubeName": "ヨルシカ - 夏草が邪魔をする (Album Trailer)",
+        "spotifyUrl": "https://open.spotify.com/album/3o5yzVy1ZXMfyATfj9OjbV",
+        "spotifyName": "夏草が邪魔をする - Album by Yorushika | Spotify",
+        "coverPic": "../../../assets/album/1.png"
+    }
+]
