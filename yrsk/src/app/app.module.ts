@@ -15,6 +15,13 @@ import { AppendixPageComponent } from './appendix-page/appendix-page.component';
 import { CreditsPageComponent } from './credits-page/credits-page.component';
 import { AlbumComponent } from './albums-page/album/album.component';
 
+import { AngularFireModule } from '@angular/fire/compat';
+import { environment } from '../environments/environment';
+import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
+import { AlbumDetailComponent } from './albums-page/album/album-detail/album-detail.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,12 +34,16 @@ import { AlbumComponent } from './albums-page/album/album.component';
     LorePageComponent,
     AppendixPageComponent,
     CreditsPageComponent,
-    AlbumComponent
+    AlbumComponent,
+    AlbumDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireStorageModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -11,6 +11,8 @@ export class AlbumsPageComponent {
   albums: any[];
 
   ngOnInit() {
-    this.albums = this.albumService.albums;
+    this.albumService.getAlbums().subscribe(albums => {
+      this.albums = albums;
+    })
   }
 }

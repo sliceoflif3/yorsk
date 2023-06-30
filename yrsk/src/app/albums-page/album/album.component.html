@@ -1,9 +1,9 @@
 <div class="grid-container">
     <div class="cover">
-        <img class="coverImg" src="{{ album.coverPic }}" alt="">        
+        <a [routerLink]="['/albums', album.id]"><img class="coverImg" src="{{ picUrl }}" alt=""></a>
     </div>
     <div class="content">
-        <p class="name">{{ album.name }} {{ album.year}}</p>
+        <a [routerLink]="['/albums', album.id]"><p class="name">{{ album.name }} ( {{ album.year}} )</p></a>
         <div >
             Japanese Title: <span class="jpname">{{ album.jpname }}</span>
         </div>    

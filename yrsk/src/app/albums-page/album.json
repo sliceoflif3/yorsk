@@ -1,4 +1,5 @@
-[
+{
+    "albums": [
     {
         "id": 1,
         "name": "NATSUKUSA GA JAMA WO SURU",
@@ -10,19 +11,87 @@
         "youtubeName": "ヨルシカ - 夏草が邪魔をする (Album Trailer)",
         "spotifyUrl": "https://open.spotify.com/album/3o5yzVy1ZXMfyATfj9OjbV",
         "spotifyName": "夏草が邪魔をする - Album by Yorushika | Spotify",
-        "coverPic": "../../../assets/album/1.png"
+        "coverPic": "gs://yrsk-d4b11.appspot.com/album cover/natsu.png"
     },
     {
-        "id": 1,
-        "name": "NATSUKUSA GA JAMA WO SURU",
-        "year": 2017,
-        "jpname": "夏草が邪魔をする",
-        "translation": "The Summer Grass Is Getting In My Way | The Summer Grass Gets In The Way",
+        "id": 2,
+        "name": "MAKEINU NI ENCORE WA IRANAI",
+        "year": 2018,
+        "jpname": "負け犬にアンコールはいらない",
+        "translation": "A Loser Doesn't Need An Encore",
         "classification": "EP / Mini-Album",
-        "trailerUrl": "https://youtu.be/6EgbGnSJnS4",
-        "youtubeName": "ヨルシカ - 夏草が邪魔をする (Album Trailer)",
-        "spotifyUrl": "https://open.spotify.com/album/3o5yzVy1ZXMfyATfj9OjbV",
-        "spotifyName": "夏草が邪魔をする - Album by Yorushika | Spotify",
-        "coverPic": "../../../assets/album/1.png"
+        "trailerUrl": "https://youtu.be/Ckk9IJwDhNI",
+        "youtubeName": "ヨルシカ - 負け犬にアンコールはいらない (Album Trailer)",
+        "spotifyUrl": "https://open.spotify.com/album/4jEsFbcpgjHiu0rsTdlaOy",
+        "spotifyName": " 負け犬にアンコールはいらない - Album by Yorushika | Spotify",
+        "coverPic": "gs://yrsk-d4b11.appspot.com/album cover/makeinu.png"
+    },
+    {
+        "id": 3,
+        "name": "DAKARA BOKU WA ONGAKU WO YAMETA",
+        "year": 2019,
+        "jpname": "だから僕は音楽を辞めた",
+        "translation": "That's Why I Gave Up On Music",
+        "classification": "Full Album",
+        "trailerUrl": "https://youtu.be/JFFedRQpqg8",
+        "youtubeName": "だから僕は音楽を辞めた (Album Trailer)",
+        "spotifyUrl": "https://open.spotify.com/album/4b9nOSXSf1LROzgfYFxdxI",
+        "spotifyName": "だから僕は音楽を辞めた - Album by Yorushika | Spotify",
+        "coverPic": "gs://yrsk-d4b11.appspot.com/album cover/dakara.png"
+    },
+    {
+        "id": 4,
+        "name": "ELMA",
+        "year": 2019,
+        "jpname": "エルマ",
+        "translation": "Elma",
+        "classification": "Full Album",
+        "trailerUrl": "https://youtu.be/I0KPgxLcGnk",
+        "youtubeName": "エルマ (Album Trailer)",
+        "spotifyUrl": "https://open.spotify.com/album/2jgZDVp8aoPDTAqxswhz9g",
+        "spotifyName": "エルマ - Album by Yorushika | Spotify",
+        "coverPic": "gs://yrsk-d4b11.appspot.com/album cover/elma.png"
+    },
+    {
+        "id": 5,
+        "name": "TOUSAKU",
+        "year": 2020,
+        "jpname": "盗作",
+        "translation": "Plagiarism",
+        "classification": "Full Album",
+        "trailerUrl": "https://youtu.be/8Zf66WSPU9E",
+        "youtubeName": "盗作 (Album Trailer)",
+        "spotifyUrl": "https://open.spotify.com/album/6pZ0SrZCP8Bm28L6JhMtBy",
+        "spotifyName": "盗作 - Album by Yorushika | Spotify",
+        "coverPic": "gs://yrsk-d4b11.appspot.com/album cover/tousaku.png"
+    },
+    {
+        "id": 6,
+        "name": "SOUSAKU",
+        "year": 2021,
+        "jpname": "創作",
+        "translation": "Creation",
+        "classification": "EP / Mini-Album",
+        "trailerUrl": "https://youtu.be/GXf33fyxr1M",
+        "youtubeName": "創作",
+        "spotifyUrl": "https://open.spotify.com/album/3BnM7AuvYkREVqNTPIxTRH",
+        "spotifyName": "創作 - Single by Yorushika | Spotify",
+        "coverPic": "gs://yrsk-d4b11.appspot.com/album cover/sousaku.png"
+    },
+    {
+        "id": 7,
+        "name": "GENTOU",
+        "year": 2023,
+        "jpname": "幻燈",
+        "translation": "Magic Lantern",
+        "classification": "Full Album, Non-CD, Artbook",
+        "trailerUrl": "https://youtu.be/cEeTW4C2GA0",
+        "youtubeName": "音楽画集「幻燈」(Album Trailer)",
+        "spotifyUrl": "https://open.spotify.com/album/4LBtT0FZ3JMjbklNwnW0Ms?si=KitzWcMzRYq6BS2hBO-Ukg",
+        "spotifyName": "幻燈 - Album by Yorushika | Spotify",
+        "coverPic": "gs://yrsk-d4b11.appspot.com/album cover/gentou.png"
     }
 ]
+
+}
+
