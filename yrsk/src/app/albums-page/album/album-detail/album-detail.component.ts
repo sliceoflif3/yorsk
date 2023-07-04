@@ -18,6 +18,7 @@ export class AlbumDetailComponent {
   albums: any[];
   picUrl: string;
   realUrl: string;
+  extras: any[];
 
   ngOnInit() {
     this.route.params.subscribe(params => {
@@ -25,11 +26,8 @@ export class AlbumDetailComponent {
       // Use the album ID to load the album details or perform any necessary actions
       this.service.getSongs(this.albumId).subscribe(album => {
         this.album = album;
-        this.songs = this.album.songs;
-        console.log(this.songs);
-        console.log(this.album);
-        this.albumName = this.album.name;
-        this.jpName = this.album.jpname;
+        this.songs = this.album.albumSongs;
+        if(this.hasExtra()) this.extras = this.album.albumExtra;
       });
     });
 
@@ -39,6 +37,7 @@ export class AlbumDetailComponent {
       console.log(this.picUrl);
       this.getImageUrl();
     });
+
   }
 
   getImageUrl() {
@@ -49,5 +48,9 @@ export class AlbumDetailComponent {
       this.realUrl = url;
       console.log(this.realUrl);
     });
+  }
+
+  hasExtra(): boolean {
+    return this.album.hasOwnProperty('albumExtra');
   }
 }

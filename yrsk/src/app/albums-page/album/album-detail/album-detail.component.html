@@ -1,16 +1,27 @@
-
-
-<div class="center">
+<div class="center" *ngIf="album"> <!-- the *ngIf == "album" is a workaround to avoid the TypeError can not read property of undefined, it waits until album is loaded before rendering the whole component-->
     <div class="grid-container">
         <div class="img">
             <img src="{{ realUrl }}" alt="">
         </div>
         <div class="name">
-            <p class="albumname">{{ albumName }}</p>
-            <p>{{ jpName }}</p>
+            <p class="albumname">{{ album.albumName }} ( {{ album.albumYear }} )</p>
+            <p>{{ album.albumJpname }}</p> 
+            <p class="small">{{ album.albumTransName }}</p>
         </div>
     </div>
     <div class="songs">
-        <p class="songname" *ngFor="let song of songs, let i = index">{{ i + 1 }}. {{ song.name }}</p>
+        <p [routerLink]="song.hasLyrics ? ['/albums', album.albumId, song.songId] : []" 
+        class="songname" 
+        *ngFor="let song of songs, let i = index"
+        [ngClass]="{'link': song.hasLyrics}">
+            {{ i + 1 }}. {{ song.songName }}
+        </p>
+        <div class="extra" *ngIf="hasExtra()">
+            <p class="bold">Extra</p>
+            <p class="songname" *ngFor="let extra of extras, let i = index">
+                {{i + 1}}. {{ extra.extraTitle }}
+            </p>
+        </div>
     </div>
+    
 </div>

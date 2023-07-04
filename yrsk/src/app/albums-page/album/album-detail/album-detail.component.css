@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 2% auto;
-    max-width: 800px;
+    /* max-width: 800px; */
+    max-width: 100vw;
     gap: 15px;
 }
 
@@ -16,6 +17,7 @@
 img {
     height: auto;
     max-width: 150px;
+    float: right;
 }
 
 .name {
@@ -32,7 +34,7 @@ img {
     flex-direction: column;
     font-family: 'Noto Serif JP', serif;
     font-size: 1.25rem;
-    /* margin-left: 25%; */
+    /* margin-left: 26%; */
     /* margin-right: auto; */
 }
 
@@ -55,4 +57,18 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+    margin-bottom:1rem;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }

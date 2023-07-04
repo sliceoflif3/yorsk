@@ -1,0 +1,12 @@
+<button (click)="toggleRomanji()">Turn off Romanization</button>
+<button (click)="toggleEnglish()">Turn off English translation</button>
+
+<div *ngIf="song"  class="flexbox-container">
+    <p class="title">{{ song.songName }}</p>
+    <div *ngFor="let lyric of lyrics" class="lyricPiece">
+        <p *ngIf="lyric.lang === 'jp'">{{ lyric.lyrics }}</p>
+        <p *ngIf="showRomanji && lyric.lang === 'ro'">{{ lyric.lyrics }}</p>
+        <p *ngIf="showEnglish && lyric.lang === 'en'" 
+            class="bold">{{ lyric.lyrics }}</p>
+    </div> <!-- omfg, lemme explain: the first lyrics is a list of object, the first lyric is we iterating through it. the second lyric is the first lyric, and the second lyrics is the attribute of the lyric object, not the same as the first lyrics which is a list -->
+</div>

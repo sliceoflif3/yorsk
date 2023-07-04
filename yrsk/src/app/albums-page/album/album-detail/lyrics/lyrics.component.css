@@ -1,0 +1,25 @@
+p {
+    white-space: pre-line;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.2rem;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+}

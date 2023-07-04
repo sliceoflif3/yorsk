@@ -1,130 +1,116 @@
 [
 	{
-		"id": 1,
-		"name": "ELMA",
-		"year": 2019,
-		"jpname": "エルマ",
-		"songs": [
+		"albumId": 1,
+		"albumName": "NATSUKUSA GA JAMA WO SURU",
+		"albumTransName": "The Summer Grass Gets In The Way",
+		"albumYear": 2017,
+		"albumJpname": "夏草が邪魔をする",
+		"albumSongs": [
 			{
-				"id": 1,
-				"name": "車窓 | Shasou [instrumental]"
+				"songId": 11,
+				"songName": "夏陰、ピアノを弾く | Natsukage, Piano wo Hiku [instrumental]",
+				"hasLyrics": false
 			},
 			{
-				"id": 2,
-				"name": "憂一乗 | Yuu Ichijou"
+				"songId": 12,
+				"songName": "カトレア | Cattleya",
+				"hasLyrics": true
 			},
 			{
-				"id": 3,
-				"name": "夕凪、某、花惑い | Yuunagi, Nanigashi, Hanamadoi"
+				"songId": 13,
+				"songName": "言って。 | Itte.",
+				"hasLyrics": true
 			},
 			{
-				"id": 4,
-				"name": "雨とカプチーノ | Ame to Cappuccino"
+				"songId": 14,
+				"songName": "あの夏に咲け | Ano Natsu ni Sake",
+				"hasLyrics": true
 			},
 			{
-				"id": 5,
-				"name": "湖の街 | Mizuumi no Machi [instrumental]"
+				"songId": 15,
+				"songName": "飛行 | Hikou [instrumental]",
+				"hasLyrics": false
 			},
 			{
-				"id": 6,
-				"name": "神様のダンス | Kami-sama no Dansu"
+				"songId": 16,
+				"songName": "靴の花火 | Kutsu no Hanabi",
+				"hasLyrics": true
 			},
 			{
-				"id": 7,
-				"name": "雨晴るる | Ame Haruru"
-			},
-			{
-				"id": 8,
-				"name": "歩く | Aruku"
-			},
-			{
-				"id": 9,
-				"name": "心に穴が空いた | Kokoro ni Ana ga Aita"
-			},
-			{
-				"id": 10,
-				"name": "森の教会 | Mori no Kyoukai [instrumental]"
-			},
-			{
-				"id": 11,
-				"name": "声 | Koe"
-			},
-			{
-				"id": 12,
-				"name": "エイミー | Amy"
-			},
-			{
-				"id": 13,
-				"name": "海底、月明かり | Kaitei, Tsukiakari [instrumental]"
-			},
-			{
-				"id": 14,
-				"name": "ノーチラス | Nautilus"
+				"songId": 17,
+				"songName": "雲と幽霊 | Kumo to Yuurei",
+				"hasLyrics": true
 			}
 		]
 	},
 	{
-	"id": 2,
-	"name": "ELMA2",
-	"year": 20192,
-	"jpname": "エルマ2",
-	"songs": [
-		{
-			"id": 1,
-			"name": "車窓 | Shasouadfasdfasdf [instrumental]"
-		},
-		{
-			"id": 2,
-			"name": "憂asdfasfdasdf一乗 | Yuu Ichijou"
-		},
-		{
-			"id": 3,
-			"name": "夕凪、某、花惑い |adsfasdf Yuunagi, Nanigashi, Hanamadoi"
-		},
-		{
-			"id": 4,
-			"name": "雨とカプチadfadsfーノ | Ame to Cappuccino"
-		},
-		{
-			"id": 5,
-			"name": "湖の街 | Mizadsfasdfuumi no Machi [instrumental]"
-		},
-		{
-			"id": 6,
-			"name": "神様のダンスadsfasdf | Kami-sama no Dansu"
-		},
-		{
-			"id": 7,
-			"name": "雨晴るる |afdasdf Ame Haruru"
-		},
-		{
-			"id": 8,
-			"name": "歩く |adsfasdf Aruku"
-		},
-		{
-			"id": 9,
-			"name": "心に穴が空afdいた | Kokoro ni Ana ga Aita"
-		},
-		{
-			"id": 10,
-			"name": "森の教会 | Mori no Kyadsfasdfadoukai [instrumental]"
-		},
-		{
-			"id": 11,
-			"name": "声 | adfasfdadsfKoe"
-		},
-		{
-			"id": 12,
-			"name": "エイミー | Aadsfasdfdasfmy"
-		},
-		{
-			"id": 13,
-			"name": "海底、月明かり | Kasdfasdfaaitei, Tsukiakari [instrumental]"
-		},
-		{
-			"id": 14,
-			"name": "ノーチラス | Nauadfasdftilus"
-		}
-	]
-}
+		"albumId": 2,
+		"albumName": "MAKEINU NI ENCORE WA IRANAI",
+		"albumTransName": "A Loser Doesn't Need An Encore",
+		"albumYear": 2018,
+		"albumJpname": "負け犬にアンコールはいらない",
+		"albumSongs": [
+			{
+				"songId": 21,
+				"songName": "前世 | Zense [instrumental]",
+				"hasLyrics": false
+			},
+			{
+				"songId": 22,
+				"songName": "負け犬にアンコールはいらない | Makeinu ni Encore wa Iranai",
+				"hasLyrics": true
+			},
+			{
+				"songId": 23,
+				"songName": "爆弾魔 | Bakudanma",
+				"hasLyrics": true
+			},
+			{
+				"songId": 24,
+				"songName": "ヒッチコック | Hitchcock",
+				"hasLyrics": true
+			},
+			{
+				"songId": 25,
+				"songName": "落下 | Rakka [instrumental]",
+				"hasLyrics": false
+			},
+			{
+				"songId": 26,
+				"songName": "準透明少年 | Juntoumei Shounen",
+				"hasLyrics": true
+			},
+			{
+				"songId": 27,
+				"songName": "ただ君に晴れ | Tada Kimi ni Hare",
+				"hasLyrics": true
+			},
+			{
+				"songId": 28,
+				"songName": "冬眠 | Toumin",
+				"hasLyrics": true
+			},
+			{
+				"songId": 29,
+				"songName": "夏、バス停、君を待つ | Natsu, Basutei, Kimi wo Matsu [instrumental]",
+				"hasLyrics": false
+			}
+		],
+		"albumExtra": [
+			{
+				"extraId": 21,
+				"extraTitle": "BOO"
+			}
+		]
+	},
+	{
+		"albumId": 3,
+		"albumName": "MAKEINU NI ENCORE WA IRANAI",
+		"albumTransName": "A Loser Doesn't Need An Encore",
+		"albumYear": 2018,
+		"albumJpname": "負け犬にアンコールはいらない",
+		"albumSongs": [
+
+		]
+	}
 ]
