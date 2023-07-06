@@ -1,12 +1,36 @@
-<button (click)="toggleRomanji()">Turn off Romanization</button>
-<button (click)="toggleEnglish()">Turn off English translation</button>
-
-<div *ngIf="song"  class="flexbox-container">
-    <p class="title">{{ song.songName }}</p>
-    <div *ngFor="let lyric of lyrics" class="lyricPiece">
-        <p *ngIf="lyric.lang === 'jp'">{{ lyric.lyrics }}</p>
-        <p *ngIf="showRomanji && lyric.lang === 'ro'">{{ lyric.lyrics }}</p>
-        <p *ngIf="showEnglish && lyric.lang === 'en'" 
-            class="bold">{{ lyric.lyrics }}</p>
-    </div> <!-- omfg, lemme explain: the first lyrics is a list of object, the first lyric is we iterating through it. the second lyric is the first lyric, and the second lyrics is the attribute of the lyric object, not the same as the first lyrics which is a list -->
+<div class="buttons">
+    <button (click)="toggleRomanji()">Turn off Romanization</button>
+    <button (click)="toggleEnglish()">Turn off English translation</button>
 </div>
+<div class="grid-container">
+    <div class="sidebar">
+        <app-sidebar></app-sidebar>
+    </div>
+    <div *ngIf="song"  class="flexbox-container">
+        <div class="cover">
+            <img class="coverImg" src="{{ picUrl }}" alt="">
+            <div *ngIf="!showInfo" (click)="toggleInfo()" class="infobox"></div>
+            <div *ngIf="showInfo" class="info" (click)="toggleInfo()">
+                <p class="name">{{ song.songName }}</p>
+                <p>English title translation: <span class="bold">{{ song.engName }}</span></p>
+                <p>Album Track Number: {{ song.albumTrackNumber }}</p>
+                <p>Song link: <a href="{{ song.songLink }}" target="_blank">{{ song.linkName }}</a></p>
+                <p *ngIf="song.MVUrl">Song MV: <a href="{{ song.MVUrl }}" target="_blank">
+                    {{ song.MVName }}
+                </a></p>
+                <p *ngIf="!song.MVUrl">Song MV: N/A</p>
+                <p *ngIf="song.songLyricsTranslator">Lyrics translator: {{ song.songLyricsTranslator }}</p>
+            </div>
+        </div>
+        <div *ngIf="song.songLyrics">
+            <p class="title">{{ song.songName | title }}</p>
+            <div *ngFor="let lyric of lyrics" class="lyricPiece">
+                <p *ngIf="lyric.lang === 'jp'">{{ lyric.lyrics }}</p>
+                <p *ngIf="showRomanji && lyric.lang === 'ro'">{{ lyric.lyrics }}</p>
+                <p *ngIf="showEnglish && lyric.lang === 'en'" 
+                    class="bold">{{ lyric.lyrics }}</p>
+            </div> <!-- omfg, lemme explain: the first lyrics is a list of object, the first lyric is we iterating through it. the second lyric is the first lyric, and the second lyrics is the attribute of the lyric object, not the same as the first lyrics which is a list -->
+        </div>
+    </div>     
+</div>
+

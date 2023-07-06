@@ -10,10 +10,10 @@
         </div>
     </div>
     <div class="songs">
-        <p [routerLink]="song.hasLyrics ? ['/albums', album.albumId, song.songId] : []" 
+        <p [routerLink]=" ['/albums', album.albumId, song.songId] " 
         class="songname" 
         *ngFor="let song of songs, let i = index"
-        [ngClass]="{'link': song.hasLyrics}">
+        class="link">
             {{ i + 1 }}. {{ song.songName }}
         </p>
         <div class="extra" *ngIf="hasExtra()">

@@ -22,4 +22,63 @@ p {
 .title {
     font-weight: bold;
     font-size: 2rem;
+    margin-top: 5%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    position: fixed;
+    right: 0%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 4fr);
+}
+
+.coverImg {
+    width: 700px;
+    height: 150px;
+    /* height: auto; */
+}
+
+.cover {
+    max-width: 100%;
+    width: 700px;
+    margin-top: 3%;
+}
+
+.info {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-bottom: 5px #ACD0D1 solid;
+    padding-bottom: 1rem;
+}
+
+.info > p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.name {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    margin-bottom: 1rem !important;
+}
+
+a {
+    color: black;
+    font-size: 1rem;
+}
+
+.infobox {
+    border-bottom: 10px #ACD0D1 solid;
+}
+
+.bold {
+    font-weight: bold;
 }

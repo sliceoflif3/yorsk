@@ -23,6 +23,8 @@ header {
     position: fixed;
     width: 100%; /*take up whole page*/
     height: 55px;
+    /* position: absolute; */
+    z-index: 9999999999999999999999999999999999999999999999999999;
 }
 
 .logo {

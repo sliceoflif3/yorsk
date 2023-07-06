@@ -17,6 +17,9 @@ export class LyricsComponent implements OnInit{
   song: any;
   showRomanji: boolean = true;
   showEnglish: boolean = true;
+  picUrl: string;
+  rawUrl: string;
+  showInfo: boolean = true;
 
   ngOnInit() {
     this.route.params.subscribe(params => {
@@ -27,7 +30,22 @@ export class LyricsComponent implements OnInit{
         this.song = song;
         this.lyrics = this.song.songLyrics;
         console.log(this.lyrics);
+        // this.rawUrl = this.song.coverUrl;
+        this.rawUrl = `gs://yrsk-d4b11.appspot.com/song cover/${this.songId}.png`;
+        this.getImageUrl();
       });
+    });
+    
+  }
+
+  getImageUrl() {
+    console.log(this.rawUrl);
+    const ref = this.storage.refFromURL(this.rawUrl); // Provide the path to your image
+    ref.getDownloadURL().subscribe((url) => {
+      // Use the HTTPS URL to display or work with the image
+      // console.log(url);
+      this.picUrl = url;
+      console.log(this.picUrl);
     });
   }
 
@@ -39,4 +57,10 @@ export class LyricsComponent implements OnInit{
     this.showEnglish = !this.showEnglish; 
     console.log('toggleEnglish');
   }
+
+  toggleInfo() {
+    console.log('toggle');
+    this.showInfo = !this.showInfo;
+  }
+
 }

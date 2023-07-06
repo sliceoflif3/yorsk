@@ -1,0 +1,23 @@
+.album-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+}
+
+p {
+    font-weight: bold;
+    font-family: Outfit, serif;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+

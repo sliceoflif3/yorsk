@@ -1,7 +1,20 @@
 [
     {
+        "songId": 11,
+        "songName": "夏陰、ピアノを弾く | Natsukage, Piano wo Hiku [instrumental]",
+        "engName": "Playing Piano in the Shadow of Summer",
+        "songLink": "https://open.spotify.com/track/2PZR7FcWfSTlXr5lQgVZKd",
+        "linkName": "夏陰、ピアノを弾く - song by Yorushika | Spotify",
+        "albumTrackNumber": "夏草が邪魔をする - 1"
+    },
+    {
         "songId": 12,
         "songName": "カトレア | Cattleya",
+        "engName": "Cattleya",
+        "songLink": "https://open.spotify.com/track/4AK6TjpIybCTe1QphPXFn9",
+        "linkName": "カトレア - song by Yorushika | Spotify",
+        "songLyricsTranslator": "EJ/bluepenguin",
+        "albumTrackNumber": "夏草が邪魔をする - 2",
         "songLyrics": [
             {
                 "lang": "jp",
@@ -140,18 +153,229 @@
     {
         "songId": 13,
         "songName": "言って。 | Itte.",
+        "engName": "Say it",
+        "songLink": "https://open.spotify.com/track/6z1TvLTR0oOsWSJfDrERmj",
+        "linkName": "言って。 - song by Yorushika | Spotify",
+        "songLyricsTranslator": "EJ/bluepenguin",
+        "albumTrackNumber": "夏草が邪魔をする - 2",
+        "MVUrl": "https://youtu.be/F64yFFnZfkI",
+        "MVName": "ヨルシカ - 言って。(Music Video)",
         "songLyrics": [
             {
                 "lang": "jp",
-                "lyrics": "itte daifjaf\n"
+                "lyrics": "言って"
             },
             {
                 "lang": "ro",
-                "lyrics": "itte adksjfasjf\n"
+                "lyrics": "itte"
             },
             {
                 "lang": "en",
-                "lyrics": "say smth sdfjasdfa\n"
+                "lyrics": "Say it"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "あのね、私実は気付いてるの\nほら、君がいったこと"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "ano ne, watashi jitsu wa kidzuite'ru no\nhora, kimi ga itta koto"
+            },
+            {
+                "lang": "en",
+                "lyrics": "You see, I've actually realized already\nLook, about that thing you said"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "あまり考えたいと思えなくて\n忘れてたんだけど"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "amari kangaetai to omoenakute\nwasurete'ta n'dakedo"
+            },
+            {
+                "lang": "en",
+                "lyrics": "I didn't feel like thinking about it too much\nSo I had forgotten about it, but"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "盲目的に盲動的に妄想的に生きて\n衝動的な焦燥的な消極的なままじゃ駄目だったんだ"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "moumokuteki ni moudouteki ni mousouteki ni ikite\nshoudouteki na shousouteki na shoukyokuteki na mama ja dame datta n'da"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Living blindly, recklessly, delusionally\nImpulsively, impatiently, negatively didn't do me any good"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "きっと、人生最後の日を前に思うのだろう\n全部、全部言い足りなくて惜しいけど"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "kitto, jinsei saigo no hi o mae ni omou no darou\nzenbu, zenbu iitarinakute oshii kedo"
+            },
+            {
+                "lang": "en",
+                "lyrics": "I'm sure that on the last day of my life, when I think of what's gone before\nAll of it, all of it will be unspeakably precious, but"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "あぁ、いつか人生最後の日、君がいないことを\nもっと、もっと、もっと\nもっと、ちゃんと言って"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "aa, itsuka jinsei saigo no hi, kimi ga inai koto o\nmotto, motto, motto\nmotto, chanto itte"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Ah, on that last day of my life, you won't be there-\nMore, more, more\nSay that more clearly"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "あのね、空が青いのってどうやって伝えればいいんだろうね\n夜の雲が高いのってどうすれば君もわかるんだろう"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "ano ne, sora ga aoi no tte dou yatte tsutaereba ii n'darou ne\nyoru no kumo ga takai no tte dou sureba kimi mo wakaru n'darou\n"
+            },
+            {
+                "lang": "en",
+                "lyrics": "You see, I'm not sure how to tell you that the sky is blue\nOr what I'd have to do to make you understand that the clouds at night are high\n"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "言って"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "itte"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Say it"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "あのね、私実はわかってるの\nもう君が逝ったこと"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "ano ne, watashi jitsu wa wakatte'ru no\nmou kimi ga itta koto"
+            },
+            {
+                "lang": "en",
+                "lyrics": "You see, I actually know\nThat you're already gone"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "あのね、わからず屋って言うんだろうね 忘れたいんだけど"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "ano ne, wakarazuya tte iu n'darou ne wasuretai n'dakedo"
+            },
+            {
+                "lang": "en",
+                "lyrics": "You see, you'll probably just call me obstinate, and I want to forget, but"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "もっとちゃんと言ってよ\n忘れないようメモにしてよ\n明日十時にホームで待ち合わせとかしよう"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "motto chanto itte yo\nwasurenai you MEMO ni shite yo\nashita juuji ni HOOMU de machiawase to ka shiyou"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Say it more clearly\nMake a note so you don't forget it\nLet’s meet tomorrow at ten on the train platform, or something like that"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "牡丹は散っても花だ\n夏が去っても追慕は切だ"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "botan wa chitte mo hana da\nnatsu ga satte mo tsuibo wa setsu da"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Even if its petals scatter, a peony is still a flower\nEven if the summer ends, the memories of it are still cherished"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "口に出して 声に出して\n君が言って"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "kuchi ni dashite koe ni dashite\nkimi ga itte"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Put it into words, give voice to it\nSay it"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "そして人生最後の日、君が見えるのなら"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "soshite jinsei saigo no hi, kimi ga mieru no nara"
+            },
+            {
+                "lang": "en",
+                "lyrics": "And then if I could see you on the last day of my life"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "きっと、人生最後の日も愛をうたうのだろう\n全部、全部無駄じゃなかったって言うから"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "kitto, jinsei saigo no hi mo ai o utau no darou\nzenbu, zenbu muda ja nakatta tte iu kara"
+            },
+            {
+                "lang": "en",
+                "lyrics": "I’m sure, even on the last day of my life, that I’d sing of love\nBecause you’d tell me none of it, none of it was in vain"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "あぁ、いつか人生最後の日、君がいないことがまだ信じられないけど"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "aa, itsuka jinsei saigo no hi, kimi ga inai koto ga mada shinjirarenai kedo"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Ah, I still can’t believe that on the last day of my life, you won’t be here"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "もっと、もっと、もっと、もっと\nもっと、もっと、もっと、君が\nもっと、もっと、もっと、もっと"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "motto, motto, motto, motto\nmotto, motto, motto, kimi ga\nmotto, motto, motto, motto"
+            },
+            {
+                "lang": "en",
+                "lyrics": "More, more, more, more\nMore, more, more, you have to\nMore, more, more, more"
+            },
+            {
+                "lang": "jp",
+                "lyrics": "もっと、ちゃんと言って"
+            },
+            {
+                "lang": "ro",
+                "lyrics": "motto, chanto itte"
+            },
+            {
+                "lang": "en",
+                "lyrics": "Please, say it more clearly"
             }
         ]
     }

@@ -42,3 +42,7 @@ div {
     width: 100%;
     height: 100%;
 }
+
+.albumName{
+    text-decoration: none;
+}

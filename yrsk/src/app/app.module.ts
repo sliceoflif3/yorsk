@@ -21,6 +21,8 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AlbumDetailComponent } from './albums-page/album/album-detail/album-detail.component';
 import { LyricsComponent } from './albums-page/album/album-detail/lyrics/lyrics.component';
+import { SidebarComponent } from './albums-page/album/album-detail/lyrics/sidebar/sidebar.component';
+import { TitlePipe } from './albums-page/album/album-detail/lyrics/title.pipe';
 
 
 @NgModule({
@@ -38,6 +40,8 @@ import { LyricsComponent } from './albums-page/album/album-detail/lyrics/lyrics.
     AlbumComponent,
     AlbumDetailComponent,
     LyricsComponent,
+    SidebarComponent,
+    TitlePipe,
   ],
   imports: [
     BrowserModule,

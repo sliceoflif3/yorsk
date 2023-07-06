@@ -1,0 +1,41 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    position: fixed;
+    max-height: calc(100vh - 9rem);
+    margin-left: 7%;
+    /* max-width: 100%; */
+    width: 200px;
+    margin-top: 3%;
+    scrollbar-width: none; /* HIDE SCROLLBAR For Firefox */ 
+    -ms-overflow-style: none; /* HIDE SCROLLBAR For Internet Explorer and Edge */
+    border-right: 3px #ACD0D1 solid;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none; /* HIDE SCROLLBAR For WebKit-based browsers (e.g., Chrome, Safari) */
+}
+
+p {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1rem;
+}
+
+.selected {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
