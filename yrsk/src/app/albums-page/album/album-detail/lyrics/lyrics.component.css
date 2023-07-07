@@ -31,7 +31,24 @@ p {
     width: 100px;
     position: fixed;
     right: 0%;
+    justify-content: space-evenly;
 }
+
+button {
+    width: 100px;
+    height: 50px;
+    max-height: 50px;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #ACD0D1;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 0.7rem;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
 
 .grid-container {
     display: grid;

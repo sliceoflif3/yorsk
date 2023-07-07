@@ -1,0 +1,17 @@
+<div class="flexbox-container" *ngIf="lore">
+    <p class="title">{{ lore.name }}</p>
+    <p><span>Unofficial name:</span> {{ lore.unofficialName }}</p>
+    <p><span>Description:</span> {{ lore.description }}</p>
+    <p><span>Characters:</span> {{ lore.characters }}</p>
+    <p><span>Album-span:</span> {{ lore.albumSpan }}</p>
+    <p><span>Extra Notes:</span> </p>
+    <p *ngFor="let note of lore.extraNotes, let i = index">
+        <span>[{{ i + 1}}]</span> {{ note }}
+    </p>
+    <div class="routes">
+        <p *ngFor="let s of lore.section" class="section">
+            {{ s.name }}
+        </p>
+    </div>
+    
+</div>

@@ -7,6 +7,7 @@ import { CreditsPageComponent } from './credits-page/credits-page.component';
 import { LorePageComponent } from './lore-page/lore-page.component';
 import { AlbumDetailComponent } from './albums-page/album/album-detail/album-detail.component';
 import { LyricsComponent } from './albums-page/album/album-detail/lyrics/lyrics.component';
+import { LoreDetailComponent } from './lore-page/lore-detail/lore-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/about', pathMatch: 'full'},
@@ -14,7 +15,13 @@ const routes: Routes = [
   { path: 'albums', component: AlbumsPageComponent },
   { path: 'albums/:id', component: AlbumDetailComponent},
   { path: 'albums/:id/:sid', component: LyricsComponent},
+  // { path: 'albums', component: AlbumsPageComponent, children: [
+  //   { path: ':id', component: AlbumDetailComponent, children: [
+  //     {path: ':sid', component: LyricsComponent}
+  //   ]}
+  // ]},
   { path: 'lore', component: LorePageComponent },
+  { path: 'lore/:id', component: LoreDetailComponent},
   { path: 'appendix', component: AppendixPageComponent },
   { path: 'credits', component: CreditsPageComponent },
 ]

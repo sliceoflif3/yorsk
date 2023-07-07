@@ -23,6 +23,7 @@ import { AlbumDetailComponent } from './albums-page/album/album-detail/album-det
 import { LyricsComponent } from './albums-page/album/album-detail/lyrics/lyrics.component';
 import { SidebarComponent } from './albums-page/album/album-detail/lyrics/sidebar/sidebar.component';
 import { TitlePipe } from './albums-page/album/album-detail/lyrics/title.pipe';
+import { LoreDetailComponent } from './lore-page/lore-detail/lore-detail.component';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { TitlePipe } from './albums-page/album/album-detail/lyrics/title.pipe';
     LyricsComponent,
     SidebarComponent,
     TitlePipe,
+    LoreDetailComponent,
   ],
   imports: [
     BrowserModule,

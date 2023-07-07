@@ -1,1 +1,15 @@
-<p>lore-page works!</p>
+<div class="flexbox-container">
+    <div class="info">
+        <p class="title">LORE</p>
+        <p>This part of the document contains the written works that relate to the story behind the songs of Yorushika. Their arrangements are as-is from their original translations and may differ from other translations and from the original source text from Yorushika.</p>
+
+        <p>There are currently 3 main branches of story, and as of the time of this writing (02/09/2023) it is confirmed through interviews with n-buna, and through the Lives, that ALL of the works of Yorushika are inter-connected.</p>
+            
+        <p>The names of the branches are not official. I will also not add any lore theories into this section (unless otherwise needed) and will not add any notes other than to explain at the beginning of each branch. All the notes included here are from their respective translators. All credit goes to them.</p>
+    </div>
+    <div class="lore-list">
+        <p *ngFor="let lore of lores" [routerLink]="[lore.loreId]">
+            {{ lore.loreName }}
+        </p>
+    </div>
+</div>

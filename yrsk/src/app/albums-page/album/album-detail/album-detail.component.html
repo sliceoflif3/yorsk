@@ -16,6 +16,7 @@
         class="link">
             {{ i + 1 }}. {{ song.songName }}
         </p>
+        <hr *ngIf="hasExtra()">
         <div class="extra" *ngIf="hasExtra()">
             <p class="bold">Extra</p>
             <p class="songname" *ngFor="let extra of extras, let i = index">

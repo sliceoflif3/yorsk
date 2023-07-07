@@ -1,4 +1,4 @@
-<div class="sidebar">
+<div class="sidebar" *ngIf="songs">
     <p *ngFor="let song of songs" [ngClass]="{ 'selected' : song.songId === songId}"
     [routerLink]="['/albums', album.albumId, song.songId]" class="link">
         {{ song.songName }}

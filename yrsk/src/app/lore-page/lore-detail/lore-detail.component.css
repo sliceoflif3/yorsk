@@ -19,13 +19,22 @@ p {
     margin-bottom: 0;
 }
 
-.lore-list > p {
+.section {
     font-family: Outfit, sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
+    margin-top: 0;
 }
 
-.lore-list > p:hover {
+.section:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.routes {
+    padding-top: 5%;
+}
+
+span {
+    font-weight: 1000;
 }

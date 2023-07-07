@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Elmy Story",
+        "unofficialName": "The Moonlight Clouded by Words",
+        "description": "he story between Elma and Amy. It follows the story of Amy, a musician, who tries to go through a life full of criticism and depression. Trying to find a meaning in that life, he met Elma which opened up his eyes to the truth.",
+        "characters": "Elma(Female), Amy(Male)",
+        "albumSpan": "NATSUKUSA GA JAMA WO SURU(2017), MAKEINU NI ENCORE WA IRANAI(2018), DAKARA BOKU WA ONGAKU WO YAMETA(2019), ELMA(2019)",
+        "extraNotes": [
+            "The main part of the story comes from the Letters to Elma and Elma’s Diary. Which were part of the limited editions of the albums DAKARA BOKU WA ONGAKU WO YAMETA(2019) and ELMA(2019)",
+            "The Letters to Elma are not arranged in chronological order. Amy wrote dates but placed the letters randomly into the box.",
+            "Links to a fan-made guide is available in the “Additional Links” section of the Appendix."
+        ],
+        "section": [
+            {
+                "id": 11,
+                "name": "Letters to Elma"
+            },
+            {
+                "id": 12,
+                "name": "Elma's diary"
+            },
+            {
+                "id": 13,
+                "name": "Moonlight Live - Poetry"
+            }
+        ] 
+    }
+]

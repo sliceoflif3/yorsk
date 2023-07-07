@@ -2,7 +2,7 @@
     <button (click)="toggleRomanji()">Turn off Romanization</button>
     <button (click)="toggleEnglish()">Turn off English translation</button>
 </div>
-<div class="grid-container">
+<div class="grid-container" *ngIf="song">
     <div class="sidebar">
         <app-sidebar></app-sidebar>
     </div>
